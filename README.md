@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌊 Portflow (Web Frontend)
 
-## Getting Started
+Portflow Web is the frontend client for the Portflow ecosystem. It is a highly responsive, modern web application designed to manage portfolios and workflows efficiently. Built on **Next.js 16 (App Router)** and **Tailwind CSS v4**.
 
-First, run the development server:
+---
 
+## ✨ Features
+
+- **🚀 Ultra-Fast Performance:** Built on React 19 and Next.js 16 for Server-Side Rendering (SSR) and seamless client-side navigation.
+- **🎨 Modern UI/UX:** Styled completely with the newly released Tailwind CSS v4 for rapid, beautiful, and responsive design.
+- **🪄 Beautiful Icons:** Integrated with `lucide-react` for clean and consistent iconography across the platform.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js (React 19)
+- **Styling:** Tailwind CSS 4
+- **Icons:** Lucide React
+- **Language:** TypeScript
+
+---
+
+## 🚀 Getting Started
+
+### 1. Installation
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/portflow-web.git
+cd portflow-web
+npm install
 ```
 
+### 2. Environment Configuration
+Create a `.env.local` file in the root directory to connect the frontend to the Portflow API (Backend):
+```env
+NEXT_PUBLIC_API_URL="http://localhost:3000"
+```
+
+### 3. Running the Application
+```bash
+npm run dev
+```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 4. Build for Production
+```bash
+npm run build
+npm run start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🔗 Related Projects
+- **[Portflow Backend API](https://github.com/yourusername/portflow)** - The NestJS API that powers this frontend application.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+This project is proprietary / unlicensed.
